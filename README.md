@@ -4,6 +4,9 @@
 <hr>
 
 <p>Grupo:</p>
+<br>
+<p>Guilherme Barbosa</p>
+<p>Matheus Rufino</p>
 <hr>
 
-<p>Template feito por: Free Template by FreeTemplates.pro</p>
+<p>Template feito por: Bootstrap Themes</p>
