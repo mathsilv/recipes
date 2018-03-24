@@ -1,0 +1,320 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>SIRVÊ - LOGIN</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta author="Bruno Dutra, Guilherme Barbosa, Lars Henrique, Matheus Rufino">
+    <meta description="Site desenvolvido para atividade acadêmica do Centro Universitário Senac, para a aula de Dev Web Server, 3º Semestre da Graduação em Prod. Multimídia">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!--Google fonts Link-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/skills/progressbar.css">
+    <link rel="stylesheet" href="assets/css/skills/style.css">
+    <link rel="stylesheet" href="assets/css/fonticons.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="assets/css/teamslide.css" />
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Custom CSS by Senac -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+    <header id="main_menu" class="header navbar-fixed-top">
+        <div class="main_menu_bg">
+            <div class="container">
+                <div class="row">
+                    <div class="nave_menu">
+                        <nav class="navbar navbar-default" id="navmenu">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                                        aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="#home">
+                                        <img src="assets/images/logo.png" />
+                                    </a>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li>
+                                            <a href="#home">Início</a>
+                                        </li>
+                                        <li>
+                                            <a href="#choose">Receitas</a>
+                                        </li>
+                                        <li>
+                                            <a href="#portfolio">Galeria</a>
+                                        </li>
+                                        <li>
+                                            <a href="#about">Sobre nós</a>
+                                        </li>
+                                        <li>
+                                            <a href="#blog">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contact">Contato</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <span class="fa fa-search"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <form class="navbar-form" role="search">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder="Search">
+                                                        </div>
+                                                    </form>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+    <!--End of header -->
+
+    <!-- LOGIN FORM -->
+    <div class="text-center top-header" style="padding:50px 0">
+        <div class="logo">Faça login para continuar</div>
+        <!-- Main Form -->
+        <div class="login-form-1">
+            <form id="login-form" class="text-left">
+                <div class="login-form-main-message"></div>
+                <div class="main-login-form">
+                    <div class="login-group">
+                        <div class="form-group">
+                            <label for="lg_username" class="sr-only">Usu[ario</label>
+                            <input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="Digite seu usuário">
+                        </div>
+                        <div class="form-group">
+                            <label for="lg_password" class="sr-only">Senha</label>
+                            <input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="Digite sua senha">
+                        </div>
+                        <div class="form-group login-group-checkbox">
+                            <input type="checkbox" id="lg_remember" name="lg_remember">
+                            <label for="lg_remember">Lembrar senha</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="login-button">
+                        <i class="fa fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="etc-login-form">
+                    <p>Esqueceu sua senha?
+                        <a href="#">clique aqui</a>
+                    </p>
+                    <p>Ainda não tem conta?
+                        <a href="#">cria uma</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <!-- end:Main Form -->
+    </div>
+
+
+
+    <script>
+        (function ($) {
+            "use strict";
+
+            // Options for Message
+            //----------------------------------------------
+            var options = {
+                'btn-loading': '<i class="fa fa-spinner fa-pulse"></i>',
+                'btn-success': '<i class="fa fa-check"></i>',
+                'btn-error': '<i class="fa fa-remove"></i>',
+                'msg-success': 'All Good! Redirecting...',
+                'msg-error': 'Wrong login credentials!',
+                'useAJAX': true,
+            };
+
+            // Login Form
+            //----------------------------------------------
+            // Validation
+            $("#login-form").validate({
+                rules: {
+                    lg_username: "required",
+                    lg_password: "required",
+                },
+                errorClass: "form-invalid"
+            });
+
+            // Form Submission
+            $("#login-form").submit(function () {
+                remove_loading($(this));
+
+                if (options['useAJAX'] == true) {
+                    // Dummy AJAX request (Replace this with your AJAX code)
+                    // If you don't want to use AJAX, remove this
+                    dummy_submit_form($(this));
+
+                    // Cancel the normal submission.
+                    // If you don't want to use AJAX, remove this
+                    return false;
+                }
+            });
+
+            // Register Form
+            //----------------------------------------------
+            // Validation
+            $("#register-form").validate({
+                rules: {
+                    reg_username: "required",
+                    reg_password: {
+                        required: true,
+                        minlength: 5
+                    },
+                    reg_password_confirm: {
+                        required: true,
+                        minlength: 5,
+                        equalTo: "#register-form [name=reg_password]"
+                    },
+                    reg_email: {
+                        required: true,
+                        email: true
+                    },
+                    reg_agree: "required",
+                },
+                errorClass: "form-invalid",
+                errorPlacement: function (label, element) {
+                    if (element.attr("type") === "checkbox" || element.attr("type") === "radio") {
+                        element.parent().append(label); // this would append the label after all your checkboxes/labels (so the error-label will be the last element in <div class="controls"> )
+                    }
+                    else {
+                        label.insertAfter(element); // standard behaviour
+                    }
+                }
+            });
+
+            // Form Submission
+            $("#register-form").submit(function () {
+                remove_loading($(this));
+
+                if (options['useAJAX'] == true) {
+                    // Dummy AJAX request (Replace this with your AJAX code)
+                    // If you don't want to use AJAX, remove this
+                    dummy_submit_form($(this));
+
+                    // Cancel the normal submission.
+                    // If you don't want to use AJAX, remove this
+                    return false;
+                }
+            });
+
+            // Forgot Password Form
+            //----------------------------------------------
+            // Validation
+            $("#forgot-password-form").validate({
+                rules: {
+                    fp_email: "required",
+                },
+                errorClass: "form-invalid"
+            });
+
+            // Form Submission
+            $("#forgot-password-form").submit(function () {
+                remove_loading($(this));
+
+                if (options['useAJAX'] == true) {
+                    // Dummy AJAX request (Replace this with your AJAX code)
+                    // If you don't want to use AJAX, remove this
+                    dummy_submit_form($(this));
+
+                    // Cancel the normal submission.
+                    // If you don't want to use AJAX, remove this
+                    return false;
+                }
+            });
+
+            // Loading
+            //----------------------------------------------
+            function remove_loading($form) {
+                $form.find('[type=submit]').removeClass('error success');
+                $form.find('.login-form-main-message').removeClass('show error success').html('');
+            }
+
+            function form_loading($form) {
+                $form.find('[type=submit]').addClass('clicked').html(options['btn-loading']);
+            }
+
+            function form_success($form) {
+                $form.find('[type=submit]').addClass('success').html(options['btn-success']);
+                $form.find('.login-form-main-message').addClass('show success').html(options['msg-success']);
+            }
+
+            function form_failed($form) {
+                $form.find('[type=submit]').addClass('error').html(options['btn-error']);
+                $form.find('.login-form-main-message').addClass('show error').html(options['msg-error']);
+            }
+
+            // Dummy Submit Form (Remove this)
+            //----------------------------------------------
+            // This is just a dummy form submission. You should use your AJAX function or remove this function if you are not using AJAX.
+            function dummy_submit_form($form) {
+                if ($form.valid()) {
+                    form_loading($form);
+
+                    setTimeout(function () {
+                        form_success($form);
+                    }, 2000);
+                }
+            }
+
+        })(jQuery);
+    </script>
+
+</body>
