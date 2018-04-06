@@ -10,5 +10,5 @@
 <hr>
 
 <p>Template feito por: Bootstrap Themes</p>
-<a href="http://demo.themewagon.com/preview/high-quality-mobile-friendly-free-html5-bootstrap-template-cooking-school">Acessar página do tema</a>
+<a href="http://demo.themewagon.com/preview/high-quality-mobile-friendly-free-html5-bootstrap-template-cooking-school">Acessar página do tema</a><br>
 <a href="https://themewagon.com/themes/high-quality-mobile-friendly-free-html5-bootstrap-template-cooking-school/">Download do tema</a>
