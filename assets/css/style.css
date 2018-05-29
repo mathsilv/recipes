@@ -114,7 +114,7 @@ input[type="color"],
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 .form-control:focus {
-    border-color: #5e9a28;
+    border-color: #155d94;
 }
 
 h1,
@@ -190,13 +190,13 @@ p:last-child {
     color: #333333;
 }
 .colorstext {
-    color: #5e9a28;
+    color: #155d94;
 }
 .coloricon i {
-    color: #5e9a28;
+    color: #155d94;
 }
 .colorsbg {
-    background: #5e9a28;
+    background: #155d94;
     color: #ffffff;
 }
 
@@ -310,13 +310,13 @@ Separator
     height: 2px;
     width: 30px;
     margin:20px auto;
-    background: #5e9a28;
+    background: #155d94;
 }
 .separator4 {
     height: 2px;
     width: 30px;
     margin:20px 0px;
-    background: #5e9a28;
+    background: #155d94;
 }
 /*section:nth-of-type(odd) {
     background-color: #F9F9F9;
@@ -338,8 +338,8 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #5e9a28;
-    border-color: #5e9a28;
+    background-color: #155d94;
+    border-color: #155d94;
 }
 
 
@@ -369,19 +369,19 @@ Button
 
 .btn-primary {
     color: #fff;
-    background-color: #639d2f;
+    background-color: #155d94;
     border-color: #fff;
     transition: .5s;	
 }
 
 .btn_news_color{
-    color:#5e9a28;
-    border-color: #5e9a28;
+    color:#155d94;
+    border-color: #155d94;
 }
 
 .btn-md{
-    border:1px solid #5e9a28;
-    color:#5e9a28;
+    border:1px solid #155d94;
+    color:#155d94;
 }
 
 
@@ -466,7 +466,7 @@ Extra height css
     padding: 40px 0;
 }
 h1 span {
-    color: #5e9a28;
+    color: #155d94;
     font-weight: 400;
 }
 
@@ -545,7 +545,7 @@ input::-ms-input-placeholder {
     color: #fff;
 }
 .navbar-brand>img {
-    max-width: 80%;
+    width: 85%;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color:transparent;
@@ -585,19 +585,19 @@ input::-ms-input-placeholder {
 }
 
 .form-control::-moz-placeholder{
-    color: #5e9a28;
+    color: #155d94;
     opacity: 1;
 }
 .form-control:-moz-placeholder{
-    color: #5e9a28;
+    color: #155d94;
     opacity: 1;  
 }  
 .form-control::-webkit-input-placeholder{
-    color: #5e9a28;
+    color: #155d94;
     opacity: 1; 
 } 
 .form-control:-ms-input-placeholder{
-    color: #5e9a28;
+    color: #155d94;
     opacity: 1; 
 }
 
@@ -617,7 +617,7 @@ input::-ms-input-placeholder {
     width: 85%;
 }
 .home .main_home p.subtitle{
-    color: #5e9a28;
+    color: rgb(182, 182, 182);
     padding-bottom: 25px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -651,11 +651,11 @@ input::-ms-input-placeholder {
     -webkit-tap-highlight-color: transparent;
 }
 .owl-theme .owl-dots .owl-dot span {
-    background: #639d2f;
+    background: #223d61;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #f5c239;
+    background: #fff;
 }
 
 
@@ -709,7 +709,7 @@ input::-ms-input-placeholder {
 
 /*lessons section css*/
 .greenbackground{
-    background: #5e9a28;
+    background: #155d94;
 }
 .choose{}
 .main_choose_area{
@@ -765,7 +765,7 @@ input::-ms-input-placeholder {
     color: #223d61;
 }
 .main_mix_menu ul li.active {
-    background: #5e9a28;
+    background: #155d94;
     color:#fff;
 }
 
@@ -810,7 +810,7 @@ input::-ms-input-placeholder {
     margin-bottom: 0px;
 }
 .mixi_portfolio_overlay .overflow_hover_text p{
-    color:#5e9a28;
+    color:#155d94;
 }
 
 
@@ -907,7 +907,7 @@ input::-ms-input-placeholder {
     background: #fff;
     padding: 15px 20px;
     width: 95%;
-    border:2px solid #5e9a28;
+    border:2px solid #155d94;
 
 }
 .blog .main_blog_area .main_blog_content ul.main_blog li.single_blog_content h4{
@@ -925,7 +925,7 @@ input::-ms-input-placeholder {
     font-size:0.875rem;
 }
 .blog .main_blog_area .main_blog_content ul.main_blog li.single_blog_content p.blog_love{
-    color:#5e9a28;
+    color:#155d94;
 }
 
 .blog_btn{
@@ -937,7 +937,7 @@ input::-ms-input-placeholder {
     font-size: 14px;
     margin: 5px;
     padding: 4px 7px;
-    background: #5e9a28;
+    background: #155d94;
     display: inline-block;
     cursor: pointer;
     -webkit-border-radius: 3px;
@@ -1013,7 +1013,7 @@ blockquote footer, blockquote small, blockquote .small {
     padding-bottom: 55px;
 }
 .counter .single_counter_right_area .single_counter_right i{
-    color:#5e9a28;
+    color:#155d94;
     font-size:4.0625rem;
     margin-bottom:40px;
 }
@@ -1114,7 +1114,7 @@ blockquote footer, blockquote small, blockquote .small {
 }
 .copyright_text p a{
     padding:0px 10px;
-    color:#5e9a28;
+    color:#155d94;
 }
 
 .footer_socail{

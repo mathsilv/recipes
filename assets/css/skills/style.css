@@ -31,7 +31,7 @@
   transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -webkit-transform: translateX(-50%); 
-  border: 1px solid #5e9a28;
+  border: 1px solid #155d94;
 } 
 .progress-number-wrapper,
 .progress-number-mark {
@@ -43,12 +43,12 @@
   font-weight: 600;
   font-style: normal;
   text-transform: none;
-  color: #5e9a28;
+  color: #155d94;
 }
 .down-arrow {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid #5e9a28;
+  border-top: 5px solid #155d94;
   position: absolute;
   left: 50%;
   top: 100%;
@@ -64,6 +64,6 @@
 }
 .progress-content {
   height: 2px;
-  background-color: #5e9a28;
+  background-color: #155d94;
   width: 0%; /* Initial value */
 }
